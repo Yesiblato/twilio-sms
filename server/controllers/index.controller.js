@@ -10,16 +10,14 @@ twilioCtrl.gettwilio = async (req, res)=> {
 twilioCtrl.createTwilio = async (req, res)=> {
     
     const { Body, To } = req.body;
-    console.log('TO',To, Body);
     
     await sendMessage(Body, To);
     const newSms = new smsModel({
-        Body: Body,
-        From: '+14246221601',
+        Body,
+        From: '+14246221512',
         To
     })    
 
-    console.log("new sms", newSms);
     await newSms.save();
     res.json({message: 'sms saved'});
 }
