@@ -21,6 +21,9 @@ Vista de la API del servidor donde se guardan los mensajes con la información n
 
 ![laHauseTwilio3](https://user-images.githubusercontent.com/87024446/199640446-e2da8de5-e85d-4bd2-a535-2f2d263cba94.jpg)
 
+Vista de los mensajes en el celular.
+
+![celular pequeña](https://user-images.githubusercontent.com/87024446/199642659-3e4b2f2a-e047-44f4-8569-7516ec05039d.jpg)
 
 ## Tecnologías utilizadas 🚀
 
