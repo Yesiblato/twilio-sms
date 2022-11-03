@@ -10,7 +10,8 @@ Interfaz de usuario.
 
 Interfaz de usuario con el mensaje para enviar.
 
-![laHauseTwilio1](https://user-images.githubusercontent.com/87024446/199640282-4d52aead-8f2e-489d-8bbf-2994cfe8bddd.jpg)
+![laHauseTwilio6](https://user-images.githubusercontent.com/87024446/199641853-94fb931a-7968-4421-a033-87bad76f59d3.jpg)
+
 
 Vista completa de la interfaz de usuario.
 
