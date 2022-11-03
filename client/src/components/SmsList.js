@@ -68,6 +68,7 @@ export default function SmsList() {
             </div>
             <div className="col-md-8">
                 <ul className="list-group">
+                    <h2>Historial de mensaje enviados</h2>
                     {smsList.map((sms, i) => {
                         return (
                             <li className='list-group-item list-group-item-action'
