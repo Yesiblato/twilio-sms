@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/smsdb', {
+mongoose.connect('mongodb://localhost/twiliosmsdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })

@@ -1,6 +1,6 @@
 const twilioCtrl = {};
-const { sendMessage } = require('../twilio/send-sms');
 const smsModel = require('../models/sms');
+const { sendMessage } = require('../twilio/send-sms');
 
 twilioCtrl.gettwilio = async (req, res)=> {
     const sms = await smsModel.find();
@@ -10,14 +10,14 @@ twilioCtrl.gettwilio = async (req, res)=> {
 twilioCtrl.createTwilio = async (req, res)=> {
     
     const { Body, To } = req.body;
-
+    console.log('TO',To, Body);
+    
+    await sendMessage(Body, To);
     const newSms = new smsModel({
         Body: Body,
-        From: '+13607767381',
+        From: '+14246221601',
         To
     })    
-    await sendMessage(req.body.message, req.body.from, req.body.to);
-    // console.log(response.sid);
 
     console.log("new sms", newSms);
     await newSms.save();
