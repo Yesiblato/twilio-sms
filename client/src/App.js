@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navegation from "./components/Navegation";
 import SmsList from "./components/SmsList";
-import CreatedSms from './components/CreatedSms';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -10,11 +10,12 @@ function App() {
     <div className="App">
       <Navegation />
 
-    <div className="container p-4">
-    <SmsList />
-      
-      <CreatedSms />
-    </div>
+      <div className="container p-4">
+        <SmsList />
+      </div>
+
+      <Footer />
+
 
     </div>
   );
